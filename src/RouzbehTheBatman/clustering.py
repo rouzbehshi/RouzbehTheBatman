@@ -1,3 +1,28 @@
+def steps():
+    steps = """
+    1- Impute the missing values ()
+    2- Normalize the data (normalize)
+    3- Choose the algorithm (algorithms)
+    """
+    print(steps)
+
+def normalize():
+    normalize = """
+    from sklearn.preprocessing import StandardScaler
+
+    scaler_standard = StandardScaler() # A.K.A. Z-score
+    scaler_standard = MinMaxScaler() # min-max scaler
+    scaler_standard = MaxAbsScaler() # Scale each feature to the [-1, 1] range without breaking the sparsity
+    
+    
+
+    df_normalized = scaler.fit_transform(df)
+        
+    
+    """
+
+    print(normalize)
+
 def elbow():
     process = """
     #Libraries
