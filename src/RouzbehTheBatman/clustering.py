@@ -21,6 +21,7 @@ def normalize():
     
     """
 
+
     print(normalize)
 
 def elbow():
