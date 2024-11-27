@@ -17,11 +17,8 @@ def normalize():
     
 
     df_normalized = scaler.fit_transform(df)
-        
-    
     """
-
-
+    
     print(normalize)
 
 def elbow():
