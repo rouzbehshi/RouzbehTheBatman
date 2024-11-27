@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "RouzbehTheBatman"
-version = "0.1.0"
+version = "0.1.1"
 description = "A personal package"
 authors = ["Rouzbeh <rzb.shirvani@gmail.com>"]
 license = "MIT"
@@ -21,7 +21,6 @@ pandas = [
 
 
 pytest = ">=7.4.0"
-
 
 
 [build-system]
